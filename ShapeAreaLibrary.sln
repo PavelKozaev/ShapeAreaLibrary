@@ -5,19 +5,21 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B0C2E366-F16D-4875-B6BF-782AF98AD77E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeAreaLibrary", "src\ShapeAreaLibrary\ShapeAreaLibrary.csproj", "{79986774-DC4F-4C3B-BF14-7B296B73ECE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShapeAreaLibrary", "src\ShapeAreaLibrary\ShapeAreaLibrary.csproj", "{79986774-DC4F-4C3B-BF14-7B296B73ECE8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{65C85E36-6260-4607-96C9-8DEC68E5FCF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeAreaLibrary.Tests", "tests\ShapeAreaLibrary.Tests\ShapeAreaLibrary.Tests.csproj", "{C8BCF206-F02F-434C-8D7C-676A17B67F05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShapeAreaLibrary.Tests", "tests\ShapeAreaLibrary.Tests\ShapeAreaLibrary.Tests.csproj", "{C8BCF206-F02F-434C-8D7C-676A17B67F05}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C31C6EB0-5602-439B-A80E-D45831DEC359}"
+	ProjectSection(SolutionItems) = preProject
+		SqlQuery.sql = SqlQuery.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{79986774-DC4F-4C3B-BF14-7B296B73ECE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -29,8 +31,14 @@ Global
 		{C8BCF206-F02F-434C-8D7C-676A17B67F05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8BCF206-F02F-434C-8D7C-676A17B67F05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{79986774-DC4F-4C3B-BF14-7B296B73ECE8} = {B0C2E366-F16D-4875-B6BF-782AF98AD77E}
 		{C8BCF206-F02F-434C-8D7C-676A17B67F05} = {65C85E36-6260-4607-96C9-8DEC68E5FCF0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E5B34F3-745C-4511-9338-9ABC264C60E7}
 	EndGlobalSection
 EndGlobal
